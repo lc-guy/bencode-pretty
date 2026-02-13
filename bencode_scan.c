@@ -63,7 +63,7 @@ static int _bad_char(int line) {
 #define INDENT_LESS indent_less();
 #define INDENT indent();
 
-static indent_level = 0;
+static int indent_level = 0;
 static void indent_more() {
   indent_level++;
 }
